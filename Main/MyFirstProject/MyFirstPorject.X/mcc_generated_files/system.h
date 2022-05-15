@@ -1,23 +1,23 @@
 /**
-  Generated main.c file from MPLAB Code Configurator
+  @Generated PIC24 / dsPIC33 / PIC32MM MCUs Source File
 
-  @Company
+  @Company:
     Microchip Technology Inc.
 
-  @File Name
-    main.c
+  @File Name:
+    system.h
 
-  @Summary
-    This is the generated main.c using PIC24 / dsPIC33 / PIC32MM MCUs.
+  @Summary:
+    This is the system.h file generated using PIC24 / dsPIC33 / PIC32MM MCUs
 
-  @Description
-    This source file provides main entry point for system initialization and application code development.
+  @Description:
+    This header file provides implementations for driver APIs for all modules selected in the GUI.
     Generation Information :
         Product Revision  :  PIC24 / dsPIC33 / PIC32MM MCUs - 1.171.1
         Device            :  PIC24FJ1024GB610
     The generated drivers are tested against the following:
         Compiler          :  XC16 v1.70
-        MPLAB 	          :  MPLAB X v5.50
+        MPLAB             :  MPLAB X v5.50
 */
 
 /*
@@ -42,27 +42,29 @@
     TERMS.
 */
 
+#ifndef _XTAL_FREQ
+#define _XTAL_FREQ  32000000UL
+#endif
+
+#include "xc.h"
+#include "stdint.h"
+
+#ifndef SYSTEM_H
+#define	SYSTEM_H
+
 /**
-  Section: Included Files
-*/
-#include "mcc_generated_files/system.h"
-
-/*
-                         Main application
+ * @Param
+    none
+ * @Returns
+    none
+ * @Description
+    Initializes the device to the default states configured in the
+ *                  MCC GUI
+ * @Example
+    SYSTEM_Initialize(void);
  */
-int main(void)
-{
-    // initialize the device
-    SYSTEM_Initialize();
-
-    while (1)
-    {
-        // Add your application code
-    }
-
-    return 1;
-}
+void SYSTEM_Initialize(void);
+#endif	/* SYSTEM_H */
 /**
  End of File
 */
-

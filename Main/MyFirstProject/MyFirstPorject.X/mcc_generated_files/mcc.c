@@ -1,23 +1,23 @@
 /**
-  Generated main.c file from MPLAB Code Configurator
+  @Generated PIC24 / dsPIC33 / PIC32MM MCUs Source File
 
-  @Company
+  @Company:
     Microchip Technology Inc.
 
-  @File Name
-    main.c
+  @File Name:
+    mcc.c
 
-  @Summary
-    This is the generated main.c using PIC24 / dsPIC33 / PIC32MM MCUs.
+  @Summary:
+    This is the mcc.c file generated using PIC24 / dsPIC33 / PIC32MM MCUs
 
-  @Description
-    This source file provides main entry point for system initialization and application code development.
+  @Description:
+    The configuration contents of this file are moved to system.c and this file will be removed in future MCC releases. 
     Generation Information :
         Product Revision  :  PIC24 / dsPIC33 / PIC32MM MCUs - 1.171.1
         Device            :  PIC24FJ1024GB610
     The generated drivers are tested against the following:
         Compiler          :  XC16 v1.70
-        MPLAB 	          :  MPLAB X v5.50
+        MPLAB             :  MPLAB X v5.50
 */
 
 /*
@@ -43,26 +43,5 @@
 */
 
 /**
-  Section: Included Files
-*/
-#include "mcc_generated_files/system.h"
-
-/*
-                         Main application
- */
-int main(void)
-{
-    // initialize the device
-    SYSTEM_Initialize();
-
-    while (1)
-    {
-        // Add your application code
-    }
-
-    return 1;
-}
-/**
  End of File
 */
-
