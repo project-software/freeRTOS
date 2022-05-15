@@ -9,6 +9,53 @@
                    displayName="Linker Files"
                    projectFiles="true">
     </logicalFolder>
+    <logicalFolder name="OS" displayName="OS" projectFiles="true">
+      <logicalFolder name="FreeRTOS" displayName="FreeRTOS" projectFiles="true">
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>../../../SW/OS/FreeRTOS/include/FreeRTOS.h</itemPath>
+          <itemPath>../../../SW/OS/FreeRTOS/include/StackMacros.h</itemPath>
+          <itemPath>../../../SW/OS/FreeRTOS/include/atomic.h</itemPath>
+          <itemPath>../../../SW/OS/FreeRTOS/include/croutine.h</itemPath>
+          <itemPath>../../../SW/OS/FreeRTOS/include/deprecated_definitions.h</itemPath>
+          <itemPath>../../../SW/OS/FreeRTOS/include/event_groups.h</itemPath>
+          <itemPath>../../../SW/OS/FreeRTOS/include/list.h</itemPath>
+          <itemPath>../../../SW/OS/FreeRTOS/include/message_buffer.h</itemPath>
+          <itemPath>../../../SW/OS/FreeRTOS/include/mpu_prototypes.h</itemPath>
+          <itemPath>../../../SW/OS/FreeRTOS/include/mpu_wrappers.h</itemPath>
+          <itemPath>../../../SW/OS/FreeRTOS/include/portable.h</itemPath>
+          <itemPath>../../../SW/OS/FreeRTOS/include/projdefs.h</itemPath>
+          <itemPath>../../../SW/OS/FreeRTOS/include/queue.h</itemPath>
+          <itemPath>../../../SW/OS/FreeRTOS/include/semphr.h</itemPath>
+          <itemPath>../../../SW/OS/FreeRTOS/include/stack_macros.h</itemPath>
+          <itemPath>../../../SW/OS/FreeRTOS/include/stream_buffer.h</itemPath>
+          <itemPath>../../../SW/OS/FreeRTOS/include/task.h</itemPath>
+          <itemPath>../../../SW/OS/FreeRTOS/include/timers.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="portable" displayName="portable" projectFiles="true">
+          <logicalFolder name="MemMang" displayName="MemMang" projectFiles="true">
+            <itemPath>../../../SW/OS/FreeRTOS/portable/MemMang/heap_1.c</itemPath>
+            <itemPath>../../../SW/OS/FreeRTOS/portable/MemMang/heap_2.c</itemPath>
+            <itemPath>../../../SW/OS/FreeRTOS/portable/MemMang/heap_3.c</itemPath>
+            <itemPath>../../../SW/OS/FreeRTOS/portable/MemMang/heap_4.c</itemPath>
+            <itemPath>../../../SW/OS/FreeRTOS/portable/MemMang/heap_5.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="MPLAB" displayName="MPLAB" projectFiles="true">
+            <logicalFolder name="PIC24_dsPIC" displayName="PIC24_dsPIC" projectFiles="true">
+              <itemPath>../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC/port.c</itemPath>
+              <itemPath>../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC/portasm_PIC24.S</itemPath>
+              <itemPath>../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC/portmacro.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <itemPath>../../../SW/OS/FreeRTOS/croutine.c</itemPath>
+        <itemPath>../../../SW/OS/FreeRTOS/event_groups.c</itemPath>
+        <itemPath>../../../SW/OS/FreeRTOS/list.c</itemPath>
+        <itemPath>../../../SW/OS/FreeRTOS/queue.c</itemPath>
+        <itemPath>../../../SW/OS/FreeRTOS/stream_buffer.c</itemPath>
+        <itemPath>../../../SW/OS/FreeRTOS/tasks.c</itemPath>
+        <itemPath>../../../SW/OS/FreeRTOS/timers.c</itemPath>
+      </logicalFolder>
+    </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
@@ -20,6 +67,9 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
   </logicalFolder>
+  <sourceRootList>
+    <Elem>../../../SW/OS</Elem>
+  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="default" type="2">
