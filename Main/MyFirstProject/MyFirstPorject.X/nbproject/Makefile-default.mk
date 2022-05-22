@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=main.c ../../../SW/OS/FreeRTOS/croutine.c ../../../SW/OS/FreeRTOS/event_groups.c ../../../SW/OS/FreeRTOS/list.c ../../../SW/OS/FreeRTOS/portable/MemMang/heap_4.c ../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC/port.c ../../../SW/OS/FreeRTOS/queue.c ../../../SW/OS/FreeRTOS/stream_buffer.c ../../../SW/OS/FreeRTOS/tasks.c ../../../SW/OS/FreeRTOS/timers.c ../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC/portasm_PIC24.S mcc_generated_files/pin_manager.c mcc_generated_files/mcc.c mcc_generated_files/interrupt_manager.c mcc_generated_files/system.c mcc_generated_files/clock.c mcc_generated_files/traps.c
+SOURCEFILES_QUOTED_IF_SPACED=../../../SW/OS/FreeRTOS/portable/MemMang/heap_4.c ../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC/port.c ../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC/portasm_PIC24.S ../../../SW/OS/FreeRTOS/croutine.c ../../../SW/OS/FreeRTOS/event_groups.c ../../../SW/OS/FreeRTOS/list.c ../../../SW/OS/FreeRTOS/queue.c ../../../SW/OS/FreeRTOS/stream_buffer.c ../../../SW/OS/FreeRTOS/tasks.c ../../../SW/OS/FreeRTOS/timers.c mcc_generated_files/pin_manager.c mcc_generated_files/mcc.c mcc_generated_files/interrupt_manager.c mcc_generated_files/system.c mcc_generated_files/clock.c mcc_generated_files/traps.c main.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/main.o ${OBJECTDIR}/_ext/1146283167/croutine.o ${OBJECTDIR}/_ext/1146283167/event_groups.o ${OBJECTDIR}/_ext/1146283167/list.o ${OBJECTDIR}/_ext/1790561828/heap_4.o ${OBJECTDIR}/_ext/1143722941/port.o ${OBJECTDIR}/_ext/1146283167/queue.o ${OBJECTDIR}/_ext/1146283167/stream_buffer.o ${OBJECTDIR}/_ext/1146283167/tasks.o ${OBJECTDIR}/_ext/1146283167/timers.o ${OBJECTDIR}/_ext/1143722941/portasm_PIC24.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/traps.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/main.o.d ${OBJECTDIR}/_ext/1146283167/croutine.o.d ${OBJECTDIR}/_ext/1146283167/event_groups.o.d ${OBJECTDIR}/_ext/1146283167/list.o.d ${OBJECTDIR}/_ext/1790561828/heap_4.o.d ${OBJECTDIR}/_ext/1143722941/port.o.d ${OBJECTDIR}/_ext/1146283167/queue.o.d ${OBJECTDIR}/_ext/1146283167/stream_buffer.o.d ${OBJECTDIR}/_ext/1146283167/tasks.o.d ${OBJECTDIR}/_ext/1146283167/timers.o.d ${OBJECTDIR}/_ext/1143722941/portasm_PIC24.o.d ${OBJECTDIR}/mcc_generated_files/pin_manager.o.d ${OBJECTDIR}/mcc_generated_files/mcc.o.d ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o.d ${OBJECTDIR}/mcc_generated_files/system.o.d ${OBJECTDIR}/mcc_generated_files/clock.o.d ${OBJECTDIR}/mcc_generated_files/traps.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1790561828/heap_4.o ${OBJECTDIR}/_ext/1143722941/port.o ${OBJECTDIR}/_ext/1143722941/portasm_PIC24.o ${OBJECTDIR}/_ext/1146283167/croutine.o ${OBJECTDIR}/_ext/1146283167/event_groups.o ${OBJECTDIR}/_ext/1146283167/list.o ${OBJECTDIR}/_ext/1146283167/queue.o ${OBJECTDIR}/_ext/1146283167/stream_buffer.o ${OBJECTDIR}/_ext/1146283167/tasks.o ${OBJECTDIR}/_ext/1146283167/timers.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/traps.o ${OBJECTDIR}/main.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1790561828/heap_4.o.d ${OBJECTDIR}/_ext/1143722941/port.o.d ${OBJECTDIR}/_ext/1143722941/portasm_PIC24.o.d ${OBJECTDIR}/_ext/1146283167/croutine.o.d ${OBJECTDIR}/_ext/1146283167/event_groups.o.d ${OBJECTDIR}/_ext/1146283167/list.o.d ${OBJECTDIR}/_ext/1146283167/queue.o.d ${OBJECTDIR}/_ext/1146283167/stream_buffer.o.d ${OBJECTDIR}/_ext/1146283167/tasks.o.d ${OBJECTDIR}/_ext/1146283167/timers.o.d ${OBJECTDIR}/mcc_generated_files/pin_manager.o.d ${OBJECTDIR}/mcc_generated_files/mcc.o.d ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o.d ${OBJECTDIR}/mcc_generated_files/system.o.d ${OBJECTDIR}/mcc_generated_files/clock.o.d ${OBJECTDIR}/mcc_generated_files/traps.o.d ${OBJECTDIR}/main.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/main.o ${OBJECTDIR}/_ext/1146283167/croutine.o ${OBJECTDIR}/_ext/1146283167/event_groups.o ${OBJECTDIR}/_ext/1146283167/list.o ${OBJECTDIR}/_ext/1790561828/heap_4.o ${OBJECTDIR}/_ext/1143722941/port.o ${OBJECTDIR}/_ext/1146283167/queue.o ${OBJECTDIR}/_ext/1146283167/stream_buffer.o ${OBJECTDIR}/_ext/1146283167/tasks.o ${OBJECTDIR}/_ext/1146283167/timers.o ${OBJECTDIR}/_ext/1143722941/portasm_PIC24.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/traps.o
+OBJECTFILES=${OBJECTDIR}/_ext/1790561828/heap_4.o ${OBJECTDIR}/_ext/1143722941/port.o ${OBJECTDIR}/_ext/1143722941/portasm_PIC24.o ${OBJECTDIR}/_ext/1146283167/croutine.o ${OBJECTDIR}/_ext/1146283167/event_groups.o ${OBJECTDIR}/_ext/1146283167/list.o ${OBJECTDIR}/_ext/1146283167/queue.o ${OBJECTDIR}/_ext/1146283167/stream_buffer.o ${OBJECTDIR}/_ext/1146283167/tasks.o ${OBJECTDIR}/_ext/1146283167/timers.o ${OBJECTDIR}/mcc_generated_files/pin_manager.o ${OBJECTDIR}/mcc_generated_files/mcc.o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o ${OBJECTDIR}/mcc_generated_files/system.o ${OBJECTDIR}/mcc_generated_files/clock.o ${OBJECTDIR}/mcc_generated_files/traps.o ${OBJECTDIR}/main.o
 
 # Source Files
-SOURCEFILES=main.c ../../../SW/OS/FreeRTOS/croutine.c ../../../SW/OS/FreeRTOS/event_groups.c ../../../SW/OS/FreeRTOS/list.c ../../../SW/OS/FreeRTOS/portable/MemMang/heap_4.c ../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC/port.c ../../../SW/OS/FreeRTOS/queue.c ../../../SW/OS/FreeRTOS/stream_buffer.c ../../../SW/OS/FreeRTOS/tasks.c ../../../SW/OS/FreeRTOS/timers.c ../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC/portasm_PIC24.S mcc_generated_files/pin_manager.c mcc_generated_files/mcc.c mcc_generated_files/interrupt_manager.c mcc_generated_files/system.c mcc_generated_files/clock.c mcc_generated_files/traps.c
+SOURCEFILES=../../../SW/OS/FreeRTOS/portable/MemMang/heap_4.c ../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC/port.c ../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC/portasm_PIC24.S ../../../SW/OS/FreeRTOS/croutine.c ../../../SW/OS/FreeRTOS/event_groups.c ../../../SW/OS/FreeRTOS/list.c ../../../SW/OS/FreeRTOS/queue.c ../../../SW/OS/FreeRTOS/stream_buffer.c ../../../SW/OS/FreeRTOS/tasks.c ../../../SW/OS/FreeRTOS/timers.c mcc_generated_files/pin_manager.c mcc_generated_files/mcc.c mcc_generated_files/interrupt_manager.c mcc_generated_files/system.c mcc_generated_files/clock.c mcc_generated_files/traps.c main.c
 
 
 
@@ -95,11 +95,17 @@ MP_LINKER_FILE_OPTION=,--script=p24FJ1024GB610.gld
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/main.o: main.c  .generated_files/5179bc86e48330bdbdab27286435b0f0282388d1.flag .generated_files/74709fa1d19e35bc709bb7e9e4fe6fe1caa6a4d6.flag
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/main.o.d 
-	@${RM} ${OBJECTDIR}/main.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  main.c  -o ${OBJECTDIR}/main.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/main.o.d"      -g -D__DEBUG   -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -I"../../../SW/OS/FreeRTOS/include" -I"../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC" -I"Config" -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+${OBJECTDIR}/_ext/1790561828/heap_4.o: ../../../SW/OS/FreeRTOS/portable/MemMang/heap_4.c  .generated_files/b2146be1c2471304fb933a8680de26bb67490bf0.flag .generated_files/74709fa1d19e35bc709bb7e9e4fe6fe1caa6a4d6.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/1790561828" 
+	@${RM} ${OBJECTDIR}/_ext/1790561828/heap_4.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1790561828/heap_4.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../../SW/OS/FreeRTOS/portable/MemMang/heap_4.c  -o ${OBJECTDIR}/_ext/1790561828/heap_4.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1790561828/heap_4.o.d"      -g -D__DEBUG   -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -I"../../../SW/OS/FreeRTOS/include" -I"../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC" -I"Config" -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	
+${OBJECTDIR}/_ext/1143722941/port.o: ../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC/port.c  .generated_files/e2c8836574d5bc03abbd2a85b792285de048b828.flag .generated_files/74709fa1d19e35bc709bb7e9e4fe6fe1caa6a4d6.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/1143722941" 
+	@${RM} ${OBJECTDIR}/_ext/1143722941/port.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1143722941/port.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC/port.c  -o ${OBJECTDIR}/_ext/1143722941/port.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1143722941/port.o.d"      -g -D__DEBUG   -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -I"../../../SW/OS/FreeRTOS/include" -I"../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC" -I"Config" -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
 ${OBJECTDIR}/_ext/1146283167/croutine.o: ../../../SW/OS/FreeRTOS/croutine.c  .generated_files/77f50a9f43d0b31bd887fb1b0c9182ae92727b36.flag .generated_files/74709fa1d19e35bc709bb7e9e4fe6fe1caa6a4d6.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1146283167" 
@@ -118,18 +124,6 @@ ${OBJECTDIR}/_ext/1146283167/list.o: ../../../SW/OS/FreeRTOS/list.c  .generated_
 	@${RM} ${OBJECTDIR}/_ext/1146283167/list.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1146283167/list.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../../SW/OS/FreeRTOS/list.c  -o ${OBJECTDIR}/_ext/1146283167/list.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1146283167/list.o.d"      -g -D__DEBUG   -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -I"../../../SW/OS/FreeRTOS/include" -I"../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC" -I"Config" -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
-	
-${OBJECTDIR}/_ext/1790561828/heap_4.o: ../../../SW/OS/FreeRTOS/portable/MemMang/heap_4.c  .generated_files/b2146be1c2471304fb933a8680de26bb67490bf0.flag .generated_files/74709fa1d19e35bc709bb7e9e4fe6fe1caa6a4d6.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/1790561828" 
-	@${RM} ${OBJECTDIR}/_ext/1790561828/heap_4.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1790561828/heap_4.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../../SW/OS/FreeRTOS/portable/MemMang/heap_4.c  -o ${OBJECTDIR}/_ext/1790561828/heap_4.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1790561828/heap_4.o.d"      -g -D__DEBUG   -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -I"../../../SW/OS/FreeRTOS/include" -I"../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC" -I"Config" -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
-	
-${OBJECTDIR}/_ext/1143722941/port.o: ../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC/port.c  .generated_files/e2c8836574d5bc03abbd2a85b792285de048b828.flag .generated_files/74709fa1d19e35bc709bb7e9e4fe6fe1caa6a4d6.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/1143722941" 
-	@${RM} ${OBJECTDIR}/_ext/1143722941/port.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1143722941/port.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC/port.c  -o ${OBJECTDIR}/_ext/1143722941/port.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1143722941/port.o.d"      -g -D__DEBUG   -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -I"../../../SW/OS/FreeRTOS/include" -I"../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC" -I"Config" -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
 ${OBJECTDIR}/_ext/1146283167/queue.o: ../../../SW/OS/FreeRTOS/queue.c  .generated_files/30e396b69bedcabbba5a9d7e6d8d92299e6b3bf0.flag .generated_files/74709fa1d19e35bc709bb7e9e4fe6fe1caa6a4d6.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1146283167" 
@@ -191,12 +185,24 @@ ${OBJECTDIR}/mcc_generated_files/traps.o: mcc_generated_files/traps.c  .generate
 	@${RM} ${OBJECTDIR}/mcc_generated_files/traps.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  mcc_generated_files/traps.c  -o ${OBJECTDIR}/mcc_generated_files/traps.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/traps.o.d"      -g -D__DEBUG   -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -I"../../../SW/OS/FreeRTOS/include" -I"../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC" -I"Config" -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-else
-${OBJECTDIR}/main.o: main.c  .generated_files/3e785357533330f9c50e8d850e5646457ddc605a.flag .generated_files/74709fa1d19e35bc709bb7e9e4fe6fe1caa6a4d6.flag
+${OBJECTDIR}/main.o: main.c  .generated_files/5179bc86e48330bdbdab27286435b0f0282388d1.flag .generated_files/74709fa1d19e35bc709bb7e9e4fe6fe1caa6a4d6.flag
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  main.c  -o ${OBJECTDIR}/main.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/main.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -I"../../../SW/OS/FreeRTOS/include" -I"../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC" -I"Config" -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	${MP_CC} $(MP_EXTRA_CC_PRE)  main.c  -o ${OBJECTDIR}/main.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/main.o.d"      -g -D__DEBUG   -mno-eds-warn  -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -I"../../../SW/OS/FreeRTOS/include" -I"../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC" -I"Config" -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	
+else
+${OBJECTDIR}/_ext/1790561828/heap_4.o: ../../../SW/OS/FreeRTOS/portable/MemMang/heap_4.c  .generated_files/48683360b073665aa2447485fed8827a41878684.flag .generated_files/74709fa1d19e35bc709bb7e9e4fe6fe1caa6a4d6.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/1790561828" 
+	@${RM} ${OBJECTDIR}/_ext/1790561828/heap_4.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1790561828/heap_4.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../../SW/OS/FreeRTOS/portable/MemMang/heap_4.c  -o ${OBJECTDIR}/_ext/1790561828/heap_4.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1790561828/heap_4.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -I"../../../SW/OS/FreeRTOS/include" -I"../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC" -I"Config" -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	
+${OBJECTDIR}/_ext/1143722941/port.o: ../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC/port.c  .generated_files/225d75f2beb7d10db2ada00433cffb23abc2d5df.flag .generated_files/74709fa1d19e35bc709bb7e9e4fe6fe1caa6a4d6.flag
+	@${MKDIR} "${OBJECTDIR}/_ext/1143722941" 
+	@${RM} ${OBJECTDIR}/_ext/1143722941/port.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1143722941/port.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC/port.c  -o ${OBJECTDIR}/_ext/1143722941/port.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1143722941/port.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -I"../../../SW/OS/FreeRTOS/include" -I"../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC" -I"Config" -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
 ${OBJECTDIR}/_ext/1146283167/croutine.o: ../../../SW/OS/FreeRTOS/croutine.c  .generated_files/85fd6e2e7eca993c28ddd73c8a689b8eef0cf26.flag .generated_files/74709fa1d19e35bc709bb7e9e4fe6fe1caa6a4d6.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1146283167" 
@@ -215,18 +221,6 @@ ${OBJECTDIR}/_ext/1146283167/list.o: ../../../SW/OS/FreeRTOS/list.c  .generated_
 	@${RM} ${OBJECTDIR}/_ext/1146283167/list.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1146283167/list.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../../SW/OS/FreeRTOS/list.c  -o ${OBJECTDIR}/_ext/1146283167/list.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1146283167/list.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -I"../../../SW/OS/FreeRTOS/include" -I"../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC" -I"Config" -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
-	
-${OBJECTDIR}/_ext/1790561828/heap_4.o: ../../../SW/OS/FreeRTOS/portable/MemMang/heap_4.c  .generated_files/48683360b073665aa2447485fed8827a41878684.flag .generated_files/74709fa1d19e35bc709bb7e9e4fe6fe1caa6a4d6.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/1790561828" 
-	@${RM} ${OBJECTDIR}/_ext/1790561828/heap_4.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1790561828/heap_4.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../../SW/OS/FreeRTOS/portable/MemMang/heap_4.c  -o ${OBJECTDIR}/_ext/1790561828/heap_4.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1790561828/heap_4.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -I"../../../SW/OS/FreeRTOS/include" -I"../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC" -I"Config" -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
-	
-${OBJECTDIR}/_ext/1143722941/port.o: ../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC/port.c  .generated_files/225d75f2beb7d10db2ada00433cffb23abc2d5df.flag .generated_files/74709fa1d19e35bc709bb7e9e4fe6fe1caa6a4d6.flag
-	@${MKDIR} "${OBJECTDIR}/_ext/1143722941" 
-	@${RM} ${OBJECTDIR}/_ext/1143722941/port.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1143722941/port.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC/port.c  -o ${OBJECTDIR}/_ext/1143722941/port.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/_ext/1143722941/port.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -I"../../../SW/OS/FreeRTOS/include" -I"../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC" -I"Config" -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
 ${OBJECTDIR}/_ext/1146283167/queue.o: ../../../SW/OS/FreeRTOS/queue.c  .generated_files/1097c6be94d933230ada0edf2451666492ae0f0a.flag .generated_files/74709fa1d19e35bc709bb7e9e4fe6fe1caa6a4d6.flag
 	@${MKDIR} "${OBJECTDIR}/_ext/1146283167" 
@@ -287,6 +281,12 @@ ${OBJECTDIR}/mcc_generated_files/traps.o: mcc_generated_files/traps.c  .generate
 	@${RM} ${OBJECTDIR}/mcc_generated_files/traps.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/traps.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  mcc_generated_files/traps.c  -o ${OBJECTDIR}/mcc_generated_files/traps.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/traps.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -I"../../../SW/OS/FreeRTOS/include" -I"../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC" -I"Config" -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
+	
+${OBJECTDIR}/main.o: main.c  .generated_files/3e785357533330f9c50e8d850e5646457ddc605a.flag .generated_files/74709fa1d19e35bc709bb7e9e4fe6fe1caa6a4d6.flag
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/main.o.d 
+	@${RM} ${OBJECTDIR}/main.o 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  main.c  -o ${OBJECTDIR}/main.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/main.o.d"      -mno-eds-warn  -g -omf=elf -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -I"../../../SW/OS/FreeRTOS/include" -I"../../../SW/OS/FreeRTOS/portable/MPLAB/PIC24_dsPIC" -I"Config" -mlarge-code -mlarge-data -mlarge-scalar -mconst-in-code -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
 endif
 

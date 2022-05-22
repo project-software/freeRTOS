@@ -46,6 +46,12 @@
   Section: Included Files
 */
 #include "mcc_generated_files/system.h"
+#include "FreeRTOS.h"
+#include "FreeRTOSConfig.h"
+#include "task.h"
+
+static void EventHandler1(void* const parameter);
+static void EventHandler2(void* const parameter);
 
 /*
                          Main application
@@ -54,6 +60,17 @@ int main(void)
 {
     // initialize the device
     SYSTEM_Initialize();
+    
+    BaseType_t status;
+    TaskHandle_t taskHandle1, taskHandle2;
+    
+    status = xTaskCreate(EventHandler1, "Task1", 100, "Run Task 1", 2, &taskHandle1);
+    
+    configASSERT(status == pdPASS);
+    
+    status = xTaskCreate(EventHandler2, "Task2", 100, "Run Task 2", 2, &taskHandle2);
+    
+    configASSERT(status == pdPASS);
 
     while (1)
     {
@@ -62,6 +79,17 @@ int main(void)
 
     return 1;
 }
+
+static void EventHandler1(void* parameter)
+{
+    
+}
+
+static void EventHandler2(void* parameter)
+{
+    
+}
+
 /**
  End of File
 */
